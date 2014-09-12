@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="oxid_smarty_functions">
+  <template name="oxcms" value="[{oxcontent ident=&quot;$END$&quot;}]" description="oxcontent" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="oxifcms" value="[{oxifcontent ident=&quot;$END$&quot; object=&quot;oCont&quot;}]&#10;    [{$oCont-&gt;oxcontents__oxcontent-&gt;value}]&#10;    &lt;a href=&quot;[{$oCont-&gt;getLink()}]&quot; rel=&quot;nofollow&quot;&gt;[{$oCont-&gt;oxcontents__oxtitle-&gt;value}]&lt;/a&gt;&#10;[{/oxifcontent}]" description="oxifcontent" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="oxmi" value="[{oxmultilang ident=&quot;$END$&quot;}]" description="oxmultilang ident" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="font-awesome">
+  <template name="fa" value="&lt;i class=&quot;fa fa-$END$&quot;&gt;&lt;/i&gt;" description="font awesome icon" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
+
