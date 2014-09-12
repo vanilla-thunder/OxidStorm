@@ -1,0 +1,30 @@
+<html>
+<head>
+
+</head>
+<body>
+<div></div>
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script>
+
+	$(document).ready(function() {
+	
+	var icons = new Array("fa-adn", "fa-android", "fa-angellist", "fa-apple", "fa-behance", "fa-behance-square", "fa-bitbucket", "fa-bitbucket-square", "fa-bitcoin", "fa-btc",
+	"fa-cc-amex", "fa-cc-discover", "fa-cc-mastercard", "fa-cc-paypal", "fa-cc-stripe", "fa-cc-visa", "fa-codepen", "fa-css3", "fa-delicious", "fa-deviantart", "fa-digg", "fa-dribbble",
+	"fa-dropbox", "fa-drupal", "fa-empire", "fa-facebook", "fa-facebook-square", "fa-flickr", "fa-foursquare", "fa-git", "fa-git-square", "fa-github", "fa-github-alt", "fa-github-square",
+	"fa-gittip", "fa-google", "fa-google-plus", "fa-google-plus-square", "fa-google-wallet", "fa-hacker-news", "fa-html5", "fa-instagram", "fa-ioxhost", "fa-joomla", "fa-jsfiddle",
+	"fa-lastfm", "fa-lastfm-square", "fa-linkedin", "fa-linkedin-square", "fa-linux", "fa-maxcdn", "fa-meanpath", "fa-openid", "fa-pagelines", "fa-paypal", "fa-pied-piper", "fa-pied-piper-alt",
+	"fa-pinterest", "fa-pinterest-square", "fa-qq", "fa-rebel", "fa-reddit", "fa-reddit-square", "fa-renren", "fa-share-alt", "fa-share-alt-square", "fa-skype", "fa-slack", "fa-slideshare",
+	"fa-soundcloud", "fa-spotify", "fa-stack-exchange", "fa-stack-overflow", "fa-steam", "fa-steam-square", "fa-stumbleupon", "fa-stumbleupon-circle", "fa-tencent-weibo", "fa-trello",
+	"fa-tumblr", "fa-tumblr-square", "fa-twitch", "fa-twitter", "fa-twitter-square", "fa-vimeo-square", "fa-vine", "fa-vk", "fa-wechat", "fa-weibo", "fa-weixin", "fa-windows", "fa-wordpress",
+	"fa-xing", "fa-xing-square", "fa-yahoo", "fa-yelp", "fa-youtube", "fa-youtube-play");
+	
+		$(icons).each(function(key, item)
+		{
+			var html = '<template name="'+item+'" value="&lt;i class=&quot;fa '+item+'&quot;&gt;&lt;/i&gt;" description="font awesome icon '+item+'" toReformat="true" toShortenFQNames="true"><context><option name="HTML_TEXT" value="true" /><option name="HTML" value="true" /><option name="OTHER" value="false" /></context></template>';
+			$("div").text($("div").text()+html);
+		});
+	});
+	</script>
+</body>
+</html>

@@ -1,9 +1,702 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<templateSet group="font-awesome">
-  <template name="fa" value="&lt;i class=&quot;fa fa-$END$&quot;&gt;&lt;/i&gt;" description="font awesome icon" toReformat="true" toShortenFQNames="true">
+<templateSet group="font awesome">
+  <template name="fa-cdn" value="&lt;link href=&quot;//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css&quot; rel=&quot;stylesheet&quot;&gt;" description="load font awesome css file from cdn" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa" value="&lt;i class=&quot;fa fa-$END$&quot;&gt;&lt;/i&gt;" description="default icon tempalte" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fa-adn" value="&lt;i class=&quot;fa fa-adn&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-adn" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-android" value="&lt;i class=&quot;fa fa-android&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-android" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-angellist" value="&lt;i class=&quot;fa fa-angellist&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-angellist" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-apple" value="&lt;i class=&quot;fa fa-apple&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-apple" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-behance" value="&lt;i class=&quot;fa fa-behance&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-behance" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-behance-square" value="&lt;i class=&quot;fa fa-behance-square&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-behance-square" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-bitbucket" value="&lt;i class=&quot;fa fa-bitbucket&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-bitbucket" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-bitbucket-square" value="&lt;i class=&quot;fa fa-bitbucket-square&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-bitbucket-square" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-bitcoin" value="&lt;i class=&quot;fa fa-bitcoin&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-bitcoin" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-btc" value="&lt;i class=&quot;fa fa-btc&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-btc" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-cc-amex" value="&lt;i class=&quot;fa fa-cc-amex&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-cc-amex" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-cc-discover" value="&lt;i class=&quot;fa fa-cc-discover&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-cc-discover" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-cc-mastercard" value="&lt;i class=&quot;fa fa-cc-mastercard&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-cc-mastercard" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-cc-paypal" value="&lt;i class=&quot;fa fa-cc-paypal&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-cc-paypal" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-cc-stripe" value="&lt;i class=&quot;fa fa-cc-stripe&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-cc-stripe" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-cc-visa" value="&lt;i class=&quot;fa fa-cc-visa&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-cc-visa" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-codepen" value="&lt;i class=&quot;fa fa-codepen&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-codepen" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-css3" value="&lt;i class=&quot;fa fa-css3&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-css3" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-delicious" value="&lt;i class=&quot;fa fa-delicious&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-delicious" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-deviantart" value="&lt;i class=&quot;fa fa-deviantart&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-deviantart" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-digg" value="&lt;i class=&quot;fa fa-digg&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-digg" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-dribbble" value="&lt;i class=&quot;fa fa-dribbble&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-dribbble" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-dropbox" value="&lt;i class=&quot;fa fa-dropbox&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-dropbox" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-drupal" value="&lt;i class=&quot;fa fa-drupal&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-drupal" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-empire" value="&lt;i class=&quot;fa fa-empire&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-empire" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-facebook" value="&lt;i class=&quot;fa fa-facebook&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-facebook" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-facebook-square" value="&lt;i class=&quot;fa fa-facebook-square&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-facebook-square" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-flickr" value="&lt;i class=&quot;fa fa-flickr&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-flickr" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-foursquare" value="&lt;i class=&quot;fa fa-foursquare&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-foursquare" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-git" value="&lt;i class=&quot;fa fa-git&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-git" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-git-square" value="&lt;i class=&quot;fa fa-git-square&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-git-square" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-github" value="&lt;i class=&quot;fa fa-github&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-github" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-github-alt" value="&lt;i class=&quot;fa fa-github-alt&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-github-alt" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-github-square" value="&lt;i class=&quot;fa fa-github-square&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-github-square" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-gittip" value="&lt;i class=&quot;fa fa-gittip&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-gittip" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-google" value="&lt;i class=&quot;fa fa-google&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-google" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-google-plus" value="&lt;i class=&quot;fa fa-google-plus&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-google-plus" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-google-plus-square" value="&lt;i class=&quot;fa fa-google-plus-square&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-google-plus-square" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-google-wallet" value="&lt;i class=&quot;fa fa-google-wallet&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-google-wallet" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-hacker-news" value="&lt;i class=&quot;fa fa-hacker-news&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-hacker-news" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-html5" value="&lt;i class=&quot;fa fa-html5&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-html5" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-instagram" value="&lt;i class=&quot;fa fa-instagram&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-instagram" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-ioxhost" value="&lt;i class=&quot;fa fa-ioxhost&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-ioxhost" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-joomla" value="&lt;i class=&quot;fa fa-joomla&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-joomla" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-jsfiddle" value="&lt;i class=&quot;fa fa-jsfiddle&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-jsfiddle" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-lastfm" value="&lt;i class=&quot;fa fa-lastfm&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-lastfm" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-lastfm-square" value="&lt;i class=&quot;fa fa-lastfm-square&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-lastfm-square" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-linkedin" value="&lt;i class=&quot;fa fa-linkedin&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-linkedin" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-linkedin-square" value="&lt;i class=&quot;fa fa-linkedin-square&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-linkedin-square" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-linux" value="&lt;i class=&quot;fa fa-linux&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-linux" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-maxcdn" value="&lt;i class=&quot;fa fa-maxcdn&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-maxcdn" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-meanpath" value="&lt;i class=&quot;fa fa-meanpath&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-meanpath" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-openid" value="&lt;i class=&quot;fa fa-openid&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-openid" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-pagelines" value="&lt;i class=&quot;fa fa-pagelines&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-pagelines" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-paypal" value="&lt;i class=&quot;fa fa-paypal&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-paypal" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-pied-piper" value="&lt;i class=&quot;fa fa-pied-piper&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-pied-piper" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-pied-piper-alt" value="&lt;i class=&quot;fa fa-pied-piper-alt&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-pied-piper-alt" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-pinterest" value="&lt;i class=&quot;fa fa-pinterest&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-pinterest" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-pinterest-square" value="&lt;i class=&quot;fa fa-pinterest-square&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-pinterest-square" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-qq" value="&lt;i class=&quot;fa fa-qq&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-qq" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-rebel" value="&lt;i class=&quot;fa fa-rebel&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-rebel" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-reddit" value="&lt;i class=&quot;fa fa-reddit&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-reddit" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-reddit-square" value="&lt;i class=&quot;fa fa-reddit-square&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-reddit-square" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-renren" value="&lt;i class=&quot;fa fa-renren&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-renren" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-share-alt" value="&lt;i class=&quot;fa fa-share-alt&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-share-alt" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-share-alt-square" value="&lt;i class=&quot;fa fa-share-alt-square&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-share-alt-square" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-skype" value="&lt;i class=&quot;fa fa-skype&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-skype" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-slack" value="&lt;i class=&quot;fa fa-slack&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-slack" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-slideshare" value="&lt;i class=&quot;fa fa-slideshare&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-slideshare" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-soundcloud" value="&lt;i class=&quot;fa fa-soundcloud&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-soundcloud" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-spotify" value="&lt;i class=&quot;fa fa-spotify&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-spotify" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-stack-exchange" value="&lt;i class=&quot;fa fa-stack-exchange&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-stack-exchange" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-stack-overflow" value="&lt;i class=&quot;fa fa-stack-overflow&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-stack-overflow" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-steam" value="&lt;i class=&quot;fa fa-steam&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-steam" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-steam-square" value="&lt;i class=&quot;fa fa-steam-square&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-steam-square" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-stumbleupon" value="&lt;i class=&quot;fa fa-stumbleupon&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-stumbleupon" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-stumbleupon-circle" value="&lt;i class=&quot;fa fa-stumbleupon-circle&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-stumbleupon-circle" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-tencent-weibo" value="&lt;i class=&quot;fa fa-tencent-weibo&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-tencent-weibo" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-trello" value="&lt;i class=&quot;fa fa-trello&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-trello" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-tumblr" value="&lt;i class=&quot;fa fa-tumblr&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-tumblr" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-tumblr-square" value="&lt;i class=&quot;fa fa-tumblr-square&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-tumblr-square" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-twitch" value="&lt;i class=&quot;fa fa-twitch&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-twitch" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-twitter" value="&lt;i class=&quot;fa fa-twitter&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-twitter" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-twitter-square" value="&lt;i class=&quot;fa fa-twitter-square&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-twitter-square" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-vimeo-square" value="&lt;i class=&quot;fa fa-vimeo-square&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-vimeo-square" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-vine" value="&lt;i class=&quot;fa fa-vine&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-vine" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-vk" value="&lt;i class=&quot;fa fa-vk&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-vk" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-wechat" value="&lt;i class=&quot;fa fa-wechat&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-wechat" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-weibo" value="&lt;i class=&quot;fa fa-weibo&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-weibo" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-weixin" value="&lt;i class=&quot;fa fa-weixin&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-weixin" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-windows" value="&lt;i class=&quot;fa fa-windows&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-windows" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-wordpress" value="&lt;i class=&quot;fa fa-wordpress&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-wordpress" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-xing" value="&lt;i class=&quot;fa fa-xing&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-xing" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-xing-square" value="&lt;i class=&quot;fa fa-xing-square&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-xing-square" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-yahoo" value="&lt;i class=&quot;fa fa-yahoo&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-yahoo" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-yelp" value="&lt;i class=&quot;fa fa-yelp&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-yelp" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-youtube" value="&lt;i class=&quot;fa fa-youtube&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-youtube" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fa-youtube-play" value="&lt;i class=&quot;fa fa-youtube-play&quot;&gt;&lt;/i&gt;" description="font awesome icon fa-youtube-play" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="false" />
     </context>
   </template>
 </templateSet>
