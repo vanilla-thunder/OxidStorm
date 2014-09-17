@@ -5,7 +5,7 @@
 basically live templates are custom shortcuts for emmet  
 ![demo](https://raw.githubusercontent.com/vanilla-thunder/OXID-gimmicks-for-PhpStorm/master/live_templates/screenshot.png)
 
-## contents:
+# contents:
 
 **oxcms**  
 `[{oxcontent ident=""}]`
