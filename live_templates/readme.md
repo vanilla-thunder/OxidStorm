@@ -18,3 +18,9 @@ basically live templates are custom shortcuts for emmet
 
 **oxmi**  
 `[{oxmultilang ident=""}]`
+
+# installation
+copy the xml files into the live templates directory
+* Windows: <your home directory>\.<product name><version number>\config\templates
+* Linux: ~\.<product name><version number>\config\templates
+* OS X: ~/Library/Preferences/<product name><version number>/templates
