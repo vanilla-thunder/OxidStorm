@@ -14,7 +14,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="oxmi" value="[{oxmultilang ident=&quot;$END$&quot;}]" description="oxmultilang ident" toReformat="true" toShortenFQNames="true">
+  <template name="oxmu" value="[{oxmultilang ident=&quot;$END$&quot;}]" description="oxmultilang function" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
