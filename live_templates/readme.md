@@ -16,7 +16,7 @@ basically live templates are custom shortcuts for emmet
 `<a href="[{$oCont->getLink()}]" rel="nofollow">[{$oCont->oxcontents__oxtitle->value}]</a>`  
 `[{/oxifcontent}]`
 
-**oxmi**  
+**oxmu**  
 `[{oxmultilang ident=""}]`
 
 # font-awesome.xml contents:
