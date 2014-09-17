@@ -5,7 +5,7 @@
 basically live templates are custom shortcuts for emmet  
 ![demo](https://raw.githubusercontent.com/vanilla-thunder/OXID-gimmicks-for-PhpStorm/master/live_templates/screenshot.png)
 
-# contents:
+# oxid_smarty_functions.xml contents:
 
 **oxcms**  
 `[{oxcontent ident=""}]`
@@ -18,6 +18,9 @@ basically live templates are custom shortcuts for emmet
 
 **oxmi**  
 `[{oxmultilang ident=""}]`
+
+# font-awesome.xml contents:
+ font awesome brand icons yet, will add other soon
 
 # installation
 copy the xml files into the live templates directory
