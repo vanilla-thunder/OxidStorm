@@ -24,6 +24,9 @@ basically live templates are custom shortcuts for emmet
 
 # installation
 copy the xml files into the live templates directory
-* Windows: <your home directory>\.<product name><version number>\config\templates
-* Linux: ~\.<product name><version number>\config\templates
-* OS X: ~/Library/Preferences/<product name><version number>/templates
+- Windows: `<your home directory>\.<product name><version number>\config\templates`
+- Linux: `~\.<product name><version number>\config\templates`
+- OS X: `~/Library/Preferences/<product name><version number>/templates`
+
+more info about live tempaltes here:
+http://www.jetbrains.com/phpstorm/webhelp/live-templates.html
