@@ -1,0 +1,37 @@
+<html>
+<head>
+
+</head>
+<body>
+<div></div>
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script>
+
+	$(document).ready(function() {
+	
+	
+		for(var small = 1; small < 13; small++)
+		{
+		
+			var html = '<template name="grid-'+small+'" value="&lt;div class=&quot;small-'+small+' columns&quot;&gt;&#10;$END$&#10;&lt;/div&gt;" description="foundation grid for small-'+small+' columns only" toReformat="true" toShortenFQNames="true"><context><option name="HTML_TEXT" value="true" /><option name="HTML" value="true" /><option name="OTHER" value="false" /></context></template>';
+			$("div").text($("div").text()+html);
+			
+			for(var medium = 1; medium < 13; medium++)
+			{
+			
+				var html = '<template name="grid-'+small+'-'+medium+'" value="&lt;div class=&quot;small-'+small+' medium-'+medium+' columns&quot;&gt;&#10;$END$&#10;&lt;/div&gt;" description="foundation grid for small-'+small+' and medium-'+medium+' columns only" toReformat="true" toShortenFQNames="true"><context><option name="HTML_TEXT" value="true" /><option name="HTML" value="true" /><option name="OTHER" value="false" /></context></template>';
+				$("div").text($("div").text()+html);
+			
+				for(var large = 1; large < 13; large++)
+				{
+					var html = '<template name="grid-'+small+'-'+medium+'-'+large+'" value="&lt;div class=&quot;small-'+small+' medium-'+medium+' large-'+large+' columns&quot;&gt;&#10;$END$&#10;&lt;/div&gt;" description="foundation grid for small-'+small+' medium-'+medium+' large-'+large+' columns" toReformat="true" toShortenFQNames="true"><context><option name="HTML_TEXT" value="true" /><option name="HTML" value="true" /><option name="OTHER" value="false" /></context></template>';
+					$("div").text($("div").text()+html);
+				}
+			}
+			
+			
+		};
+	});
+	</script>
+</body>
+</html>
